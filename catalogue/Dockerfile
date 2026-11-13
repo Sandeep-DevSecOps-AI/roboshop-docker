@@ -1,4 +1,4 @@
-FROM nodejs:20
+FROM Node:20
 #this creates and moved to that directory
 WORKDIR /app
 COPY package.json .
